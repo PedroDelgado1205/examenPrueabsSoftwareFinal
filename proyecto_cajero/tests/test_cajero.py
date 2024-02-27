@@ -5,8 +5,8 @@ from cajero_automatico import CajeroAutomatico
 
 class TestCajeroAutomatico(unittest.TestCase):
     def setUp(self):
-        self.persona1 = Persona("Juan", "Perez", "12345678")
-        self.persona2 = Persona("Maria", "Gonzalez", "87654321")
+        self.persona1 = Persona("Pedro", "Delgado", "12345678")
+        self.persona2 = Persona("Miguel", "Bravo", "87654321")
         self.cuenta1 = CuentaBancaria(self.persona1, 1000)
         self.cuenta2 = CuentaBancaria(self.persona2, 500)
         self.cajero = CajeroAutomatico()

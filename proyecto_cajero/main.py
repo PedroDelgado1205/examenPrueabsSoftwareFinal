@@ -3,10 +3,10 @@ from cuenta_bancaria import CuentaBancaria
 from cajero_automatico import CajeroAutomatico
 
 # Crear algunas personas y cuentas bancarias
-persona1 = Persona("Juan", "Perez", "12345678")
-persona2 = Persona("Maria", "Gonzalez", "87654321")
-cuenta1 = CuentaBancaria(persona1, 1000)
-cuenta2 = CuentaBancaria(persona2, 500)
+persona1 = Persona("Pedro", "Delgado", "12345678")
+persona2 = Persona("Miguel", "Bravo", "87654321")
+cuenta1 = CuentaBancaria(persona1, 1500)
+cuenta2 = CuentaBancaria(persona2, 460)
 
 # Crear un cajero automático y agregar las cuentas
 cajero = CajeroAutomatico()
